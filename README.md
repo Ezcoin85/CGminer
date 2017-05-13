@@ -1,0 +1,1 @@
+# CGminer
