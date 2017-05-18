@@ -351,4 +351,25 @@ Loaded at start and used when saving without a name.
 
 
 
-and this is what usually gets spit out. an index of command lines to configure your cgminer interface to the network.
+and this is what usually gets spit out. an index of command lines to configure your cgminer interface to the network. looks scary I know but we will focus on the essential must know commands to cgminer
+
+
+1. --btc-address + bitcoin address  this is an important command especially if you SOLO mine YOU WILL NOT RECEIVE PAYOUTS IF THIS INFORMATION IS NOT FILLED IN!!! im sure most of you dont exactly appreciate the concept of working for free. so make sure your cgminer always has its bitcoin address information correct. cannot emphasize on that enough.
+
+
+2. --btc-sig + bitcoin signature  also a critical step in the field of SOLO mining and yes YOU WILL NOT RECEIVE PAYOUTS IF THIS INFORMATION IS NOT FILLED IN. the transactions require verifications and signatures without it bitcoin has no Proof of Work, if you need help in getting a bitcoin signature proceed to btc CORE repository for assistance.
+
+
+3. --api-listen to attach listener for network(first make sure pool api is configured first)
+
+
+4. --api-network to call and connect to the network. (first make sure pool api is configured first)
+
+
+I cannot take credit for cgminer as it is not my program or creation instead please give credit to writer of the application. ckolivas. all glory and credit goes to this person. thank you Con! 
+
+
+Con Kolivas <kernel@kolivas.org>
+15qSxP1SQcUX3o4nhkfdbgyoWEFMomJ4rZ
+
+
